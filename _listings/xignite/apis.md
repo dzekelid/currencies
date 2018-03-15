@@ -49,7 +49,7 @@ apis:
   tags: Currencies
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/currencies/master/_listings/xignite/listcurrencies-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/currencies/master/_listings/xignite/listactivecurrencies-post.md
 x-common:
 - type: x-net-sdk
   url: http://xignite.github.io/DotNetSDK/

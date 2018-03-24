@@ -14,9 +14,9 @@ tags:
 - Have API Key
 - Free Tier
 - Blockchain
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/currencies/master/_listings/alpha-vantage/apis.yaml
+created: "2018-03-23"
+modified: "2018-03-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/alpha-vantage/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Alpha Vantage
@@ -29,7 +29,7 @@ apis:
   tags: Currencies
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/currencies/master/_listings/alpha-vantage/query-function-digital-currency-monthly-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/alpha-vantage/query-function-digital-currency-intraday-get.md
 x-common:
 - type: x-command-line-interface
   url: https://www.npmjs.com/package/alpha-vantage-cli

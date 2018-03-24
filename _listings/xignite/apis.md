@@ -36,9 +36,9 @@ tags:
 - Business
 - Bond Markets
 - Articles
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/currencies/master/_listings/xignite/apis.yaml
+created: "2018-03-23"
+modified: "2018-03-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Xignite Currencies
@@ -49,7 +49,7 @@ apis:
   tags: Currencies
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/currencies/master/_listings/xignite/listactivecurrencies-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/listcurrencies-post.md
 x-common:
 - type: x-net-sdk
   url: http://xignite.github.io/DotNetSDK/

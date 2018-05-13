@@ -30,7 +30,34 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/alpha-vantage/query-function-digital-currency-monthly-get.md
+- name: Alpha Vantage Digital Currencies Intraday
+  description: This API returns the realtime intraday time series (in 5-minute intervals)
+    for any digital currency (e.g., BTC) traded on a specific market (e.g., CNY/Chinese
+    Yuan). Prices and volumes are quoted in both the market-specific currency and
+    USD.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
+    Shot 2018-01-22 at 4.52.35 PM.png
+  humanURL: https://www.alphavantage.co
+  baseURL: https://www.alphavantage.co//
+  tags: Currencies
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/alpha-vantage/query-function-digital-currency-intraday-get.md
 x-common:
+- type: x-command-line-interface
+  url: https://www.npmjs.com/package/alpha-vantage-cli
+- type: x-documentation
+  url: https://www.alphavantage.co/documentation/
+- type: x-forum
+  url: https://www.alpha-vantage.community/
+- type: x-selfservice-registration
+  url: https://www.alphavantage.co/support/#api-key
+- type: x-support
+  url: https://www.alphavantage.co/support/#support
+- type: x-terms-of-service
+  url: https://www.alphavantage.co/terms_of_service/
+- type: x-website
+  url: https://www.alphavantage.co
 - type: x-command-line-interface
   url: https://www.npmjs.com/package/alpha-vantage-cli
 - type: x-documentation

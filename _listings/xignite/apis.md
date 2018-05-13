@@ -50,7 +50,7 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/listactivecurrencies-post.md
-- name: Xignite Currencies List Currencies
+- name: Xignite Currencies List Active Currencies
   description: List supported currencies.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/280-xignite.jpg
   humanURL: http://www.xignite.com
@@ -58,7 +58,7 @@ apis:
   tags: Currencies
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/listcurrencies-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/listactivecurrencies-post.md
 x-common:
 - type: x-net-sdk
   url: http://xignite.github.io/DotNetSDK/

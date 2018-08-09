@@ -13,8 +13,8 @@ title: Streamdata.io API Gallery - Currencies
 
 <section class="taggedLinkCards">
 
-  <div>
-    <ul>
+  <center>
+  <div style="width:75%">
     {% for item in listing_object %}
       {% if item.swagger %}
         {% if item.swagger == "2.0" %}
@@ -82,16 +82,15 @@ title: Streamdata.io API Gallery - Currencies
       	           {% endfor %}
       	         {% endfor %}
 
-                 <li>{{ api_name }} - {{ api_path_summary }} {% if api_json_openapi_spec != '' %}(<a href="/{{ tag_slug }}/{{ api_slug }}/{{ api_path_slug }}/#openapi">OpenAPI</a>){% endif %} {% if api_json_postman_collection != '' %}(<a href="/{{ tag_slug }}/{{ api_slug }}/{{ api_path_slug }}/#postman">Postman</a>){% endif %}) {% if api_json_asyncapi_url != '' %}(<a href="/{{ tag_slug }}/{{ api_slug }}/{{ api_path_slug }}/#asyncapi">AsyncAPI</a>){% endif %} - {{ api_path_description }}</li>
+                 - {{ api_name }} - {{ api_path_summary }} {% if api_json_openapi_spec != '' %}(<a href="/{{ tag_slug }}/{{ api_slug }}/{{ api_path_slug }}/#openapi">OpenAPI</a>){% endif %} {% if api_json_postman_collection != '' %}(<a href="/{{ tag_slug }}/{{ api_slug }}/{{ api_path_slug }}/#postman">Postman</a>){% endif %} {% if api_json_asyncapi_url != '' %}(<a href="/{{ tag_slug }}/{{ api_slug }}/{{ api_path_slug }}/#asyncapi">AsyncAPI</a>){% endif %} - {{ api_path_description }}</li>
 
 
       	  	{% endif %}
           {% endif %}
         {% endif %}
       {% endfor %}
-      </ul>
     </div>
-
+  </center>
 </section>
 <div class="submitApi__overflowContainer" data-submit-api="">
    <div class="submitApi submitApi--left-hand-image">

@@ -17,36 +17,42 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Currencies
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/reverb/apis.md
 specificationVersion: "0.14"
 apis:
-- name: reverb Get Currencies Display
+- name: Reverb
   x-api-slug: reverb
-  description: List of supported display currencies for browsing listings
+  description: reverb
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
   humanURL: https://helloreverb.com/app
-  baseURL: https://api.reverb.com//api//currencies/display
-  tags: Currencies,Display
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/reverb/currenciesdisplay-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/reverb/currenciesdisplay-get-openapi.md
-- name: reverb Get Currencies Listing
+- name: Reverb
   x-api-slug: reverb
-  description: List of supported listing currencies for shops
+  description: reverb
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
   humanURL: https://helloreverb.com/app
-  baseURL: https://api.reverb.com//api//currencies/listing
-  tags: Currencies,Listing
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/reverb/currenciesdisplay-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/reverb/currenciesdisplay-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/reverb/currencieslisting-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/reverb/currencieslisting-get-openapi.md
-- name: reverb
+- name: Reverb
   x-api-slug: reverb
   description: 'Reverb&#8217;s mission is to connect people with meaningful content.Reverb
     was created to find and connect the rich associations between words, ideas, content,
@@ -68,6 +74,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/reverb/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://respoke.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://reverb.stack.network
 - type: x-blog
   url: http://blog.helloreverb.com/
 - type: x-blog-rss
@@ -82,6 +92,8 @@ x-common:
   url: https://helloreverb.com/app
 - type: x-website
   url: http://reverb.com
+- type: x-website
+  url: https://reverb.com
 include: []
 maintainers:
 - FN: Kin Lane

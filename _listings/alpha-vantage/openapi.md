@@ -15,116 +15,27 @@ produces:
 consumes:
 - application/json
 paths:
-  /query?function=DIGITAL_CURRENCY_INTRADAY:
+  /query?function=CURRENCY_EXCHANGE_RATE:
     get:
-      summary: Digital Currencies Intraday
-      description: This API returns the realtime intraday time series (in 5-minute
-        intervals) for any digital currency (e.g., BTC) traded on a specific market
-        (e.g., CNY/Chinese Yuan). Prices and volumes are quoted in both the market-specific
-        currency and USD.
-      operationId: getDigitalCurrenciesIntraday
-      x-api-path-slug: queryfunctiondigital-currency-intraday-get
+      summary: Currency Exchange Rates
+      description: Realtime currency exchange rates for physical and digital currencies.
+      operationId: getCurrencyExchangeRates
+      x-api-path-slug: queryfunctioncurrency-exchange-rate-get
       parameters:
       - in: query
-        name: market
-        description: The exchange market of your choice
+        name: from_currency
+        description: The currency you would like to get the exchange rate for
         type: string
         format: string
       - in: query
-        name: symbol
-        description: The digital/crypto currency of your choice
+        name: to_currency
+        description: The destination currency for the exchange rate
         type: string
         format: string
       responses:
         200:
           description: OK
       tags:
-      - Market Data
-      - Digital Currencies
-      - Intraday
-      - Time Series
-  /query?function=DIGITAL_CURRENCY_DAILY:
-    get:
-      summary: Digital Currencies Daily
-      description: This API returns the daily historical time series for a digital
-        currency (e.g., BTC) traded on a specific market (e.g., CNY/Chinese Yuan),
-        refreshed daily at midnight (UTC). Prices and volumes are quoted in both the
-        market-specific currency and USD.
-      operationId: getDigitalCurrenciesDaily
-      x-api-path-slug: queryfunctiondigital-currency-daily-get
-      parameters:
-      - in: query
-        name: market
-        description: The exchange market of your choice
-        type: string
-        format: string
-      - in: query
-        name: symbol
-        description: The digital/crypto currency of your choice
-        type: string
-        format: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Market Data
-      - Digital Currencies
-      - Daily
-      - Time Series
-  /query?function=DIGITAL_CURRENCY_WEEKLY:
-    get:
-      summary: Digital Currencies Weekly
-      description: This API returns the weekly historical time series for a digital
-        currency (e.g., BTC) traded on a specific market (e.g., CNY/Chinese Yuan),
-        refreshed daily at midnight (UTC). Prices and volumes are quoted in both the
-        market-specific currency and USD.
-      operationId: getDigitalCurrenciesWeekly
-      x-api-path-slug: queryfunctiondigital-currency-weekly-get
-      parameters:
-      - in: query
-        name: market
-        description: The exchange market of your choice
-        type: string
-        format: string
-      - in: query
-        name: symbol
-        description: The digital/crypto currency of your choice
-        type: string
-        format: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Market Data
-      - Digital Currencies
-      - Weekly
-      - Time Series
-  /query?function=DIGITAL_CURRENCY_MONTHLY:
-    get:
-      summary: Digital Currencies Monthly
-      description: This API returns the monthly historical time series for a digital
-        currency (e.g., BTC) traded on a specific market (e.g., CNY/Chinese Yuan),
-        refreshed daily at midnight (UTC). Prices and volumes are quoted in both the
-        market-specific currency and USD.
-      operationId: getDigitalCurrenciesMonthly
-      x-api-path-slug: queryfunctiondigital-currency-monthly-get
-      parameters:
-      - in: query
-        name: market
-        description: The exchange market of your choice
-        type: string
-        format: string
-      - in: query
-        name: symbol
-        description: The digital/crypto currency of your choice
-        type: string
-        format: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Market Data
-      - Digital Currencies
-      - Monthly
-      - Time Series
+      - Currency
+      - Exchange Rates
 ---

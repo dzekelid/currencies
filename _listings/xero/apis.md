@@ -7,41 +7,54 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.j
 x-kinRank: "8"
 x-alexaRank: "2158"
 tags: Currencies
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xero/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Clarity Accounting Get Currencies
+- name: Clarity Accounting
   x-api-slug: clarity-accounting
-  description: Get currencies.
+  description: -introductionthe-xero-accounting-api-is-a-restful-web-service-and-uses-the-oauth-v1-0a-protocol-to-authenticate-3rd-party-applications--the-accounting-api-exposes-accounting-and-related-functions-of-the-main-xero-application-and-can-be-used-for-a-variety-of-purposes-such-as-creating-transactions-like-invoices-and-credit-notes-right-through-to-extracting-accounting-data-via-our-reports-endpoint-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Currencies
-  tags: Currencies
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xero/currencies-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xero/currencies-get-openapi.md
-- name: Clarity Accounting Put Currencies
+- name: Clarity Accounting
   x-api-slug: clarity-accounting
-  description: Put currencies.
+  description: -introductionthe-xero-accounting-api-is-a-restful-web-service-and-uses-the-oauth-v1-0a-protocol-to-authenticate-3rd-party-applications--the-accounting-api-exposes-accounting-and-related-functions-of-the-main-xero-application-and-can-be-used-for-a-variety-of-purposes-such-as-creating-transactions-like-invoices-and-credit-notes-right-through-to-extracting-accounting-data-via-our-reports-endpoint-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Currencies
-  tags: Currencies
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xero/currencies-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xero/currencies-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xero/currencies-put-openapi.md
-- name: Clarity Accounting X-related-model Currencies
+- name: Clarity Accounting
   x-api-slug: clarity-accounting
-  description: X-related-model currencies.
+  description: -introductionthe-xero-accounting-api-is-a-restful-web-service-and-uses-the-oauth-v1-0a-protocol-to-authenticate-3rd-party-applications--the-accounting-api-exposes-accounting-and-related-functions-of-the-main-xero-application-and-can-be-used-for-a-variety-of-purposes-such-as-creating-transactions-like-invoices-and-credit-notes-right-through-to-extracting-accounting-data-via-our-reports-endpoint-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Currencies
-  tags: Currencies
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xero/currencies-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xero/currencies-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xero/currencies-put-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xero/currencies-xrelatedmodel-openapi.md
 - name: Clarity Accounting
@@ -56,7 +69,23 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xero/openapi.md
+- name: Xero oAuth 1a
+  x-api-slug: xero-oauth-1a
+  description: Xero is the QuickBooks alternative. Use Xero accounting software to
+    manage invoicing, bank reconciliation, bookkeeping & more. Start a free trial
+    today!
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
+  humanURL: http://www.xero.com/
+  baseURL: https://api.xero.com//
+  tags: Currencies
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xero/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://wordnik.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://xero.stack.network
 - type: x-base
   url: https://api.xero.com
 - type: x-blog

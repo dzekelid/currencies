@@ -11,67 +11,37 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "160846"
 tags: Currencies
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/alpha-vantage/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Alpha Vantage Digital Currencies Intraday
+- name: Alpha Vantage
   x-api-slug: alpha-vantage
-  description: This API returns the realtime intraday time series (in 5-minute intervals)
-    for any digital currency (e.g., BTC) traded on a specific market (e.g., CNY/Chinese
-    Yuan). Prices and volumes are quoted in both the market-specific currency and
-    USD.
+  description: alpha-vantage-apis-are-grouped-into-four-categories-1-stock-time-series-data-2-physical-and-digitalcrypto-currencies-e-g--bitcoin-3-stock-technical-indicators-and-4-sector-performances--all-apis-are-realtime-the-latest-data-points-are-derived-from-the-current-trading-day--
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
     Shot 2018-01-22 at 4.52.35 PM.png
   humanURL: https://www.alphavantage.co
-  baseURL: https://www.alphavantage.co////query?function=DIGITAL_CURRENCY_INTRADAY
-  tags: Market Data,Digital Currencies,Intraday,Time Series
+  baseURL: https://www.alphavantage.co//
+  tags: Blockchain, Market Data, Free Tier, Have API Key, Blockchains, API Provider,
+    Profiles, Relative Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/alpha-vantage/queryfunctiondigital-currency-intraday-get-openapi.md
-- name: Alpha Vantage Digital Currencies Daily
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/alpha-vantage/queryfunctioncurrency-exchange-rate-get-openapi.md
+- name: Alpha Vantage
   x-api-slug: alpha-vantage
-  description: This API returns the daily historical time series for a digital currency
-    (e.g., BTC) traded on a specific market (e.g., CNY/Chinese Yuan), refreshed daily
-    at midnight (UTC). Prices and volumes are quoted in both the market-specific currency
-    and USD.
+  description: alpha-vantage-apis-are-grouped-into-four-categories-1-stock-time-series-data-2-physical-and-digitalcrypto-currencies-e-g--bitcoin-3-stock-technical-indicators-and-4-sector-performances--all-apis-are-realtime-the-latest-data-points-are-derived-from-the-current-trading-day--
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
     Shot 2018-01-22 at 4.52.35 PM.png
   humanURL: https://www.alphavantage.co
-  baseURL: https://www.alphavantage.co////query?function=DIGITAL_CURRENCY_DAILY
-  tags: Market Data,Digital Currencies,Daily,Time Series
+  baseURL: https://www.alphavantage.co//
+  tags: Blockchain, Market Data, Free Tier, Have API Key, Blockchains, API Provider,
+    Profiles, Relative Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/alpha-vantage/queryfunctiondigital-currency-daily-get-openapi.md
-- name: Alpha Vantage Digital Currencies Weekly
-  x-api-slug: alpha-vantage
-  description: This API returns the weekly historical time series for a digital currency
-    (e.g., BTC) traded on a specific market (e.g., CNY/Chinese Yuan), refreshed daily
-    at midnight (UTC). Prices and volumes are quoted in both the market-specific currency
-    and USD.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
-    Shot 2018-01-22 at 4.52.35 PM.png
-  humanURL: https://www.alphavantage.co
-  baseURL: https://www.alphavantage.co////query?function=DIGITAL_CURRENCY_WEEKLY
-  tags: Market Data,Digital Currencies,Weekly,Time Series
-  properties:
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/alpha-vantage/queryfunctioncurrency-exchange-rate-get-openapi.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/alpha-vantage/queryfunctiondigital-currency-weekly-get-openapi.md
-- name: Alpha Vantage Digital Currencies Monthly
-  x-api-slug: alpha-vantage
-  description: This API returns the monthly historical time series for a digital currency
-    (e.g., BTC) traded on a specific market (e.g., CNY/Chinese Yuan), refreshed daily
-    at midnight (UTC). Prices and volumes are quoted in both the market-specific currency
-    and USD.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
-    Shot 2018-01-22 at 4.52.35 PM.png
-  humanURL: https://www.alphavantage.co
-  baseURL: https://www.alphavantage.co////query?function=DIGITAL_CURRENCY_MONTHLY
-  tags: Market Data,Digital Currencies,Monthly,Time Series
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/alpha-vantage/queryfunctiondigital-currency-monthly-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/alpha-vantage/queryfunctioncurrency-exchange-rate-get-openapi.md
 - name: Alpha Vantage
   x-api-slug: alpha-vantage
   description: Composed of a tight-knit community of researchers, engineers, and business
@@ -88,6 +58,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/alpha-vantage/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://alpha.vantage.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://alpha.vantage.stack.network
 - type: x-command-line-interface
   url: https://www.npmjs.com/package/alpha-vantage-cli
 - type: x-documentation

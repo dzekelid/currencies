@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Get Currencies Listing
+  title: Reverb Get Currencies Listing
   description: List of supported listing currencies for shops
   termsOfService: https://reverb.com/page/terms
   contact:

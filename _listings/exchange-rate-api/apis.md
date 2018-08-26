@@ -7,23 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "1406143"
 tags: Currencies
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/exchange-rate-api/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Exchange Rate
-  x-api-slug: exchange-rate
-  description: Our service is the easy to use, accurate and reliable currency API
-    thats perfect for both personal and professional use. Convert currencies with
-    ease!
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/exchange-rate-api.png
-  humanURL: http://www.exchangerate-api.com
-  baseURL: https:///
-  tags: Currencies
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/exchange-rate-api/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://www.exchangerate-api.com/

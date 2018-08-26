@@ -11,52 +11,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "160846"
 tags: Currencies
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/alpha-vantage/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Alpha Vantage
-  x-api-slug: alpha-vantage
-  description: alpha-vantage-apis-are-grouped-into-four-categories-1-stock-time-series-data-2-physical-and-digitalcrypto-currencies-e-g--bitcoin-3-stock-technical-indicators-and-4-sector-performances--all-apis-are-realtime-the-latest-data-points-are-derived-from-the-current-trading-day--
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
-    Shot 2018-01-22 at 4.52.35 PM.png
-  humanURL: https://www.alphavantage.co
-  baseURL: https://www.alphavantage.co//
-  tags: Blockchain, Market Data, Free Tier, Have API Key, Blockchains, API Provider,
-    Profiles, Relative Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/alpha-vantage/queryfunctioncurrency-exchange-rate-get-openapi.md
-- name: Alpha Vantage
-  x-api-slug: alpha-vantage
-  description: alpha-vantage-apis-are-grouped-into-four-categories-1-stock-time-series-data-2-physical-and-digitalcrypto-currencies-e-g--bitcoin-3-stock-technical-indicators-and-4-sector-performances--all-apis-are-realtime-the-latest-data-points-are-derived-from-the-current-trading-day--
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
-    Shot 2018-01-22 at 4.52.35 PM.png
-  humanURL: https://www.alphavantage.co
-  baseURL: https://www.alphavantage.co//
-  tags: Blockchain, Market Data, Free Tier, Have API Key, Blockchains, API Provider,
-    Profiles, Relative Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/alpha-vantage/queryfunctioncurrency-exchange-rate-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/alpha-vantage/queryfunctioncurrency-exchange-rate-get-openapi.md
-- name: Alpha Vantage
-  x-api-slug: alpha-vantage
-  description: Composed of a tight-knit community of researchers, engineers, and business
-    professionals, Alpha Vantage Inc. is a leading provider of free APIs for realtime
-    and historical data on stocks, physical currencies, and digital/crypto currencies.
-    Our success is driven by rigorous research, cutting edge technology, and a disciplined
-    focus on democratizing access to data.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
-    Shot 2018-01-22 at 4.52.35 PM.png
-  humanURL: https://www.alphavantage.co
-  baseURL: https://www.alphavantage.co//
-  tags: Currencies
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/alpha-vantage/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://alpha.vantage.api.gallery.streamdata.io

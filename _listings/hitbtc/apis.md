@@ -9,14 +9,14 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "3107"
 tags: Currencies
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/apis.md
 specificationVersion: "0.14"
 apis:
-- name: HitBTC
-  x-api-slug: hitbtc
-  description: create-api-keys-in-your-profile-httpshitbtc-comsettingsapikeys-and-use-public-api-key-as-username-and-secret-as-password-to-authorize-
+- name: HitBTC API - Available Currencies
+  x-api-slug: publiccurrency-get
+  description: Available currencies.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hitbtc-logo.png
   humanURL: https://hitbtc.com
   baseURL: https:////api/2
@@ -26,107 +26,54 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/publiccurrency-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/publiccurrency-get-openapi.md
-- name: HitBTC
-  x-api-slug: hitbtc
-  description: create-api-keys-in-your-profile-httpshitbtc-comsettingsapikeys-and-use-public-api-key-as-username-and-secret-as-password-to-authorize-
+- name: HitBTC API - Available Currency Symbols
+  x-api-slug: publicsymbol-get
+  description: Available currency symbols.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hitbtc-logo.png
   humanURL: https://hitbtc.com
   baseURL: https:////api/2
   tags: Technology, Blockchain, Marketplace, API Provider, Profiles, General Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/publiccurrency-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/publiccurrency-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/publicsymbol-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/publicsymbol-get-openapi.md
-- name: HitBTC
-  x-api-slug: hitbtc
-  description: create-api-keys-in-your-profile-httpshitbtc-comsettingsapikeys-and-use-public-api-key-as-username-and-secret-as-password-to-authorize-
+- name: HitBTC API - Get Currency Info
+  x-api-slug: publiccurrencycurrency-get
+  description: Get currency info.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hitbtc-logo.png
   humanURL: https://hitbtc.com
   baseURL: https:////api/2
   tags: Technology, Blockchain, Marketplace, API Provider, Profiles, General Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/publiccurrency-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/publiccurrency-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/publicsymbol-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/publicsymbol-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/publiccurrencycurrency-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/publiccurrencycurrency-get-openapi.md
-- name: HitBTC
-  x-api-slug: hitbtc
-  description: create-api-keys-in-your-profile-httpshitbtc-comsettingsapikeys-and-use-public-api-key-as-username-and-secret-as-password-to-authorize-
+- name: HitBTC API - Available Currency Symbols
+  x-api-slug: publicsymbol-get
+  description: Available currency symbols.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hitbtc-logo.png
   humanURL: https://hitbtc.com
   baseURL: https:////api/2
   tags: Technology, Blockchain, Marketplace, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/publiccurrency-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/publiccurrency-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/publicsymbol-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/publicsymbol-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/publiccurrencycurrency-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/publiccurrencycurrency-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/publicsymbol-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/publicsymbol-get-openapi.md
-- name: HitBTC
-  x-api-slug: hitbtc
-  description: create-api-keys-in-your-profile-httpshitbtc-comsettingsapikeys-and-use-public-api-key-as-username-and-secret-as-password-to-authorize-
+- name: HitBTC API - Get Currency Info
+  x-api-slug: publiccurrencycurrency-get
+  description: Get currency info.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hitbtc-logo.png
   humanURL: https://hitbtc.com
   baseURL: https:////api/2
   tags: Technology, Blockchain, Marketplace, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/publiccurrency-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/publiccurrency-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/publicsymbol-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/publicsymbol-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/publiccurrencycurrency-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/publiccurrencycurrency-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/publicsymbol-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/publicsymbol-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/publiccurrencycurrency-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/publiccurrencycurrency-get-openapi.md
-- name: HitBTC
-  x-api-slug: hitbtc
-  description: We bring cutting-edge technology to the Bitcoin ecosystem!    Hitbtc
-    provides an excellent trading terminal based on professional trading software
-    which is suitable for new and sophisticated users.    As one of our valued customers,
-    we understand how i...
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hitbtc-logo.png
-  humanURL: https://hitbtc.com
-  baseURL: https:////api/2
-  tags: Currencies
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/openapi.md
 x-common:
 - type: x-blog-rss
   url: https://blog.hitbtc.com/feed/

@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1347-.jpg
 x-kinRank: "7"
 x-alexaRank: "217071"
 tags: Currencies
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/open-exchange-rates-api/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Open Exchange Rates API
-  x-api-slug: open-exchange-rates-api
-  description: The original simple, accurate and transparent exchange rates and currency
-    conversion data API.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1347-.jpg
-  humanURL: https://openexchangerates.org
-  baseURL: https:///
-  tags: Currencies
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/open-exchange-rates-api/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://openexchangerates.org/api/

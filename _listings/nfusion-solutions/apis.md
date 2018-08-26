@@ -9,14 +9,16 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28883-nfus
 x-kinRank: "7"
 x-alexaRank: "4970472"
 tags: Currencies
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apis.md
 specificationVersion: "0.14"
 apis:
-- name: nFusion API
-  x-api-slug: nfusion-api
-  description: nfusion-solutions-provides-rest-and-streaming-apis-that-deliver-enterprisegrade-financial-data--data-sets-include-realtime-and-historical-pricing-for-spot-prices-of-precious-metals-such-as-gold-silver-platinum-and-palladium-exchange-rates-for-major-currency-pairs-exchange-rates-for-crypto-currencies-such-as-btc-eth-and-ltc--all-api-access-requires-authentication--in-order-to-be-issued-access-credentials-you-must-first-enter-into-a-service-agreement-with-nfusion-solutions-and-acquire-a-commercial-license--for-information-on-how-to-obtain-a-licence-contact-salesnfusionsolutions-com-
+- name: nFusion Solutions Market Data API v1 - Get list of currencies supported by
+    the rate endpoint
+  x-api-slug: apivversioncurrenciesratesupported-get
+  description: "Any of the currencies in this list can be paired with any other currency
+    in this list when supplied to the Rate endpoint.\r\nFor example: USD/CAD,CAD/USD,USD/EUR,EUR/CAD"
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28883-nfusionsolutions-com.jpg
   humanURL: http://www.nfusionsolutions.com
   baseURL: https://api.nfusionsolutions.biz//
@@ -27,171 +29,100 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesratesupported-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesratesupported-get-openapi.md
-- name: nFusion API
-  x-api-slug: nfusion-api
-  description: nfusion-solutions-provides-rest-and-streaming-apis-that-deliver-enterprisegrade-financial-data--data-sets-include-realtime-and-historical-pricing-for-spot-prices-of-precious-metals-such-as-gold-silver-platinum-and-palladium-exchange-rates-for-major-currency-pairs-exchange-rates-for-crypto-currencies-such-as-btc-eth-and-ltc--all-api-access-requires-authentication--in-order-to-be-issued-access-credentials-you-must-first-enter-into-a-service-agreement-with-nfusion-solutions-and-acquire-a-commercial-license--for-information-on-how-to-obtain-a-licence-contact-salesnfusionsolutions-com-
+- name: nFusion Solutions Market Data API v1 - Get list of currencies supported by
+    metals endpoints for currency conversion
+  x-api-slug: apivversionmetalssupportedcurrency-get
+  description: Get list of currencies supported by metals endpoints for currency conversion.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28883-nfusionsolutions-com.jpg
   humanURL: http://www.nfusionsolutions.com
   baseURL: https://api.nfusionsolutions.biz//
   tags: SaaS, Technology, Enterprise, Financial Services, Metals, Market Data, General
     Data, Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesratesupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesratesupported-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversionmetalssupportedcurrency-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversionmetalssupportedcurrency-get-openapi.md
-- name: nFusion API
-  x-api-slug: nfusion-api
-  description: nfusion-solutions-provides-rest-and-streaming-apis-that-deliver-enterprisegrade-financial-data--data-sets-include-realtime-and-historical-pricing-for-spot-prices-of-precious-metals-such-as-gold-silver-platinum-and-palladium-exchange-rates-for-major-currency-pairs-exchange-rates-for-crypto-currencies-such-as-btc-eth-and-ltc--all-api-access-requires-authentication--in-order-to-be-issued-access-credentials-you-must-first-enter-into-a-service-agreement-with-nfusion-solutions-and-acquire-a-commercial-license--for-information-on-how-to-obtain-a-licence-contact-salesnfusionsolutions-com-
+- name: nFusion Solutions Market Data API v1 - Get list of currency pairs supported
+    by the Summary endpoint
+  x-api-slug: apivversioncurrenciessummarysupported-get
+  description: "Only the currency pairs in the direction noted can be used with the
+    Summary endpoint.\r\nFor example: USD/CAD is not the same as CAD/USD"
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28883-nfusionsolutions-com.jpg
   humanURL: http://www.nfusionsolutions.com
   baseURL: https://api.nfusionsolutions.biz//
   tags: SaaS, Technology, Enterprise, Financial Services, Metals, Market Data, General
     Data, Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesratesupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesratesupported-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversionmetalssupportedcurrency-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversionmetalssupportedcurrency-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummarysupported-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummarysupported-get-openapi.md
-- name: nFusion API
-  x-api-slug: nfusion-api
-  description: nfusion-solutions-provides-rest-and-streaming-apis-that-deliver-enterprisegrade-financial-data--data-sets-include-realtime-and-historical-pricing-for-spot-prices-of-precious-metals-such-as-gold-silver-platinum-and-palladium-exchange-rates-for-major-currency-pairs-exchange-rates-for-crypto-currencies-such-as-btc-eth-and-ltc--all-api-access-requires-authentication--in-order-to-be-issued-access-credentials-you-must-first-enter-into-a-service-agreement-with-nfusion-solutions-and-acquire-a-commercial-license--for-information-on-how-to-obtain-a-licence-contact-salesnfusionsolutions-com-
+- name: nFusion Solutions Market Data API v1 - Get list of currency pairs supported
+    by the history endpoint
+  x-api-slug: apivversioncurrencieshistorysupported-get
+  description: "Only the currency pairs in the direction noted can be used with the
+    history endpoint.\r\nFor example: USD/CAD is not the same as CAD/USD"
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28883-nfusionsolutions-com.jpg
   humanURL: http://www.nfusionsolutions.com
   baseURL: https://api.nfusionsolutions.biz//
   tags: SaaS, Technology, Enterprise, Financial Services, Metals, Market Data, General
     Data, Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesratesupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesratesupported-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversionmetalssupportedcurrency-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversionmetalssupportedcurrency-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummarysupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummarysupported-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistorysupported-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistorysupported-get-openapi.md
-- name: nFusion API
-  x-api-slug: nfusion-api
-  description: nfusion-solutions-provides-rest-and-streaming-apis-that-deliver-enterprisegrade-financial-data--data-sets-include-realtime-and-historical-pricing-for-spot-prices-of-precious-metals-such-as-gold-silver-platinum-and-palladium-exchange-rates-for-major-currency-pairs-exchange-rates-for-crypto-currencies-such-as-btc-eth-and-ltc--all-api-access-requires-authentication--in-order-to-be-issued-access-credentials-you-must-first-enter-into-a-service-agreement-with-nfusion-solutions-and-acquire-a-commercial-license--for-information-on-how-to-obtain-a-licence-contact-salesnfusionsolutions-com-
+- name: nFusion Solutions Market Data API v1 - Get latest mid rate for requested currency
+    pairs
+  x-api-slug: apivversioncurrenciesrate-get
+  description: Get latest mid rate for requested currency pairs.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28883-nfusionsolutions-com.jpg
   humanURL: http://www.nfusionsolutions.com
   baseURL: https://api.nfusionsolutions.biz//
   tags: SaaS, Technology, Enterprise, Financial Services, Metals, Market Data, General
     Data, Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesratesupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesratesupported-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversionmetalssupportedcurrency-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversionmetalssupportedcurrency-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummarysupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummarysupported-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistorysupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistorysupported-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesrate-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesrate-get-openapi.md
-- name: nFusion API
-  x-api-slug: nfusion-api
-  description: nfusion-solutions-provides-rest-and-streaming-apis-that-deliver-enterprisegrade-financial-data--data-sets-include-realtime-and-historical-pricing-for-spot-prices-of-precious-metals-such-as-gold-silver-platinum-and-palladium-exchange-rates-for-major-currency-pairs-exchange-rates-for-crypto-currencies-such-as-btc-eth-and-ltc--all-api-access-requires-authentication--in-order-to-be-issued-access-credentials-you-must-first-enter-into-a-service-agreement-with-nfusion-solutions-and-acquire-a-commercial-license--for-information-on-how-to-obtain-a-licence-contact-salesnfusionsolutions-com-
+- name: nFusion Solutions Market Data API v1 - Get latest Summary for requested currency
+    pairs
+  x-api-slug: apivversioncurrenciessummary-get
+  description: Current and daily summary information combined into a single quote
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28883-nfusionsolutions-com.jpg
   humanURL: http://www.nfusionsolutions.com
   baseURL: https://api.nfusionsolutions.biz//
   tags: SaaS, Technology, Enterprise, Financial Services, Metals, Market Data, General
     Data, Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesratesupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesratesupported-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversionmetalssupportedcurrency-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversionmetalssupportedcurrency-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummarysupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummarysupported-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistorysupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistorysupported-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesrate-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesrate-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummary-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummary-get-openapi.md
-- name: nFusion API
-  x-api-slug: nfusion-api
-  description: nfusion-solutions-provides-rest-and-streaming-apis-that-deliver-enterprisegrade-financial-data--data-sets-include-realtime-and-historical-pricing-for-spot-prices-of-precious-metals-such-as-gold-silver-platinum-and-palladium-exchange-rates-for-major-currency-pairs-exchange-rates-for-crypto-currencies-such-as-btc-eth-and-ltc--all-api-access-requires-authentication--in-order-to-be-issued-access-credentials-you-must-first-enter-into-a-service-agreement-with-nfusion-solutions-and-acquire-a-commercial-license--for-information-on-how-to-obtain-a-licence-contact-salesnfusionsolutions-com-
+- name: nFusion Solutions Market Data API v1 - Get historical prices for requested
+    currency pairs
+  x-api-slug: apivversioncurrencieshistory-get
+  description: "Historical OHLC data for the specified period and interval size\r\n\r\nThe
+    combination of the interval parameter and start and end dates can result in results\r\nbeing
+    truncated to conform to result size limits. See comments on interval parameter
+    for details on valid interval values."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28883-nfusionsolutions-com.jpg
   humanURL: http://www.nfusionsolutions.com
   baseURL: https://api.nfusionsolutions.biz//
   tags: SaaS, Technology, Enterprise, Financial Services, Metals, Market Data, General
     Data, Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesratesupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesratesupported-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversionmetalssupportedcurrency-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversionmetalssupportedcurrency-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummarysupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummarysupported-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistorysupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistorysupported-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesrate-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesrate-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummary-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummary-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistory-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistory-get-openapi.md
-- name: nFusion API
-  x-api-slug: nfusion-api
-  description: nfusion-solutions-provides-rest-and-streaming-apis-that-deliver-enterprisegrade-financial-data--data-sets-include-realtime-and-historical-pricing-for-spot-prices-of-precious-metals-such-as-gold-silver-platinum-and-palladium-exchange-rates-for-major-currency-pairs-exchange-rates-for-crypto-currencies-such-as-btc-eth-and-ltc--all-api-access-requires-authentication--in-order-to-be-issued-access-credentials-you-must-first-enter-into-a-service-agreement-with-nfusion-solutions-and-acquire-a-commercial-license--for-information-on-how-to-obtain-a-licence-contact-salesnfusionsolutions-com-
+- name: nFusion Solutions Market Data API v1 - Get list of currency pairs supported
+    by the Summary endpoint
+  x-api-slug: apivversioncurrenciessummarysupported-get
+  description: "Only the currency pairs in the direction noted can be used with the
+    Summary endpoint.\r\nFor example: USD/CAD is not the same as CAD/USD"
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28883-nfusionsolutions-com.jpg
   humanURL: http://www.nfusionsolutions.com
   baseURL: https://api.nfusionsolutions.biz//
@@ -199,40 +130,14 @@ apis:
     Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesratesupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesratesupported-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversionmetalssupportedcurrency-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversionmetalssupportedcurrency-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummarysupported-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummarysupported-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistorysupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistorysupported-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesrate-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesrate-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummary-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummary-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistory-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistory-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummarysupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummarysupported-get-openapi.md
-- name: nFusion API
-  x-api-slug: nfusion-api
-  description: nfusion-solutions-provides-rest-and-streaming-apis-that-deliver-enterprisegrade-financial-data--data-sets-include-realtime-and-historical-pricing-for-spot-prices-of-precious-metals-such-as-gold-silver-platinum-and-palladium-exchange-rates-for-major-currency-pairs-exchange-rates-for-crypto-currencies-such-as-btc-eth-and-ltc--all-api-access-requires-authentication--in-order-to-be-issued-access-credentials-you-must-first-enter-into-a-service-agreement-with-nfusion-solutions-and-acquire-a-commercial-license--for-information-on-how-to-obtain-a-licence-contact-salesnfusionsolutions-com-
+- name: nFusion Solutions Market Data API v1 - Get list of currency pairs supported
+    by the history endpoint
+  x-api-slug: apivversioncurrencieshistorysupported-get
+  description: "Only the currency pairs in the direction noted can be used with the
+    history endpoint.\r\nFor example: USD/CAD is not the same as CAD/USD"
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28883-nfusionsolutions-com.jpg
   humanURL: http://www.nfusionsolutions.com
   baseURL: https://api.nfusionsolutions.biz//
@@ -240,44 +145,13 @@ apis:
     Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesratesupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesratesupported-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversionmetalssupportedcurrency-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversionmetalssupportedcurrency-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummarysupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummarysupported-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistorysupported-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistorysupported-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesrate-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesrate-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummary-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummary-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistory-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistory-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummarysupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummarysupported-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistorysupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistorysupported-get-openapi.md
-- name: nFusion API
-  x-api-slug: nfusion-api
-  description: nfusion-solutions-provides-rest-and-streaming-apis-that-deliver-enterprisegrade-financial-data--data-sets-include-realtime-and-historical-pricing-for-spot-prices-of-precious-metals-such-as-gold-silver-platinum-and-palladium-exchange-rates-for-major-currency-pairs-exchange-rates-for-crypto-currencies-such-as-btc-eth-and-ltc--all-api-access-requires-authentication--in-order-to-be-issued-access-credentials-you-must-first-enter-into-a-service-agreement-with-nfusion-solutions-and-acquire-a-commercial-license--for-information-on-how-to-obtain-a-licence-contact-salesnfusionsolutions-com-
+- name: nFusion Solutions Market Data API v1 - Get latest mid rate for requested currency
+    pairs
+  x-api-slug: apivversioncurrenciesrate-get
+  description: Get latest mid rate for requested currency pairs.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28883-nfusionsolutions-com.jpg
   humanURL: http://www.nfusionsolutions.com
   baseURL: https://api.nfusionsolutions.biz//
@@ -285,48 +159,13 @@ apis:
     Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesratesupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesratesupported-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversionmetalssupportedcurrency-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversionmetalssupportedcurrency-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummarysupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummarysupported-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistorysupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistorysupported-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesrate-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesrate-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummary-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummary-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistory-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistory-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummarysupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummarysupported-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistorysupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistorysupported-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesrate-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesrate-get-openapi.md
-- name: nFusion API
-  x-api-slug: nfusion-api
-  description: nfusion-solutions-provides-rest-and-streaming-apis-that-deliver-enterprisegrade-financial-data--data-sets-include-realtime-and-historical-pricing-for-spot-prices-of-precious-metals-such-as-gold-silver-platinum-and-palladium-exchange-rates-for-major-currency-pairs-exchange-rates-for-crypto-currencies-such-as-btc-eth-and-ltc--all-api-access-requires-authentication--in-order-to-be-issued-access-credentials-you-must-first-enter-into-a-service-agreement-with-nfusion-solutions-and-acquire-a-commercial-license--for-information-on-how-to-obtain-a-licence-contact-salesnfusionsolutions-com-
+- name: nFusion Solutions Market Data API v1 - Get latest Summary for requested currency
+    pairs
+  x-api-slug: apivversioncurrenciessummary-get
+  description: Current and daily summary information combined into a single quote
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28883-nfusionsolutions-com.jpg
   humanURL: http://www.nfusionsolutions.com
   baseURL: https://api.nfusionsolutions.biz//
@@ -334,52 +173,16 @@ apis:
     Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesratesupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesratesupported-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversionmetalssupportedcurrency-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversionmetalssupportedcurrency-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummarysupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummarysupported-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistorysupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistorysupported-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesrate-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesrate-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummary-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummary-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistory-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistory-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummarysupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummarysupported-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistorysupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistorysupported-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesrate-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesrate-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummary-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummary-get-openapi.md
-- name: nFusion API
-  x-api-slug: nfusion-api
-  description: nfusion-solutions-provides-rest-and-streaming-apis-that-deliver-enterprisegrade-financial-data--data-sets-include-realtime-and-historical-pricing-for-spot-prices-of-precious-metals-such-as-gold-silver-platinum-and-palladium-exchange-rates-for-major-currency-pairs-exchange-rates-for-crypto-currencies-such-as-btc-eth-and-ltc--all-api-access-requires-authentication--in-order-to-be-issued-access-credentials-you-must-first-enter-into-a-service-agreement-with-nfusion-solutions-and-acquire-a-commercial-license--for-information-on-how-to-obtain-a-licence-contact-salesnfusionsolutions-com-
+- name: nFusion Solutions Market Data API v1 - Get historical prices for requested
+    currency pairs
+  x-api-slug: apivversioncurrencieshistory-get
+  description: "Historical OHLC data for the specified period and interval size\r\n\r\nThe
+    combination of the interval parameter and start and end dates can result in results\r\nbeing
+    truncated to conform to result size limits. See comments on interval parameter
+    for details on valid interval values."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28883-nfusionsolutions-com.jpg
   humanURL: http://www.nfusionsolutions.com
   baseURL: https://api.nfusionsolutions.biz//
@@ -387,66 +190,9 @@ apis:
     Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesratesupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesratesupported-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversionmetalssupportedcurrency-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversionmetalssupportedcurrency-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummarysupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummarysupported-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistorysupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistorysupported-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesrate-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesrate-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummary-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummary-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistory-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistory-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummarysupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummarysupported-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistorysupported-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistorysupported-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesrate-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciesrate-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummary-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrenciessummary-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistory-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apivversioncurrencieshistory-get-openapi.md
-- name: nFusion API
-  x-api-slug: nfusion-api
-  description: nFusion Solutions ecosystem of products and solutions lets you power
-    your apps, websites and software with precious metals market data directly from
-    exchanges around the world. Built on the Azure Cloud platform, nFusion delivers
-    a reliable and scalabl...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28883-nfusionsolutions-com.jpg
-  humanURL: http://www.nfusionsolutions.com
-  baseURL: https://api.nfusionsolutions.biz//
-  tags: Currencies
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/openapi.md
 x-common:
 - type: x-blog-rss
   url: https://nfusionsolutions.com/feed/

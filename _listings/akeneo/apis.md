@@ -12,63 +12,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "164081"
 tags: Currencies
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/akeneo/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Akeneo PIM API
-  x-api-slug: akeneo-pim-api
-  description: the-akeneo-api-brought-to-youfind-out-how-this-postman-collection-works-by-visiting-httpapi-akeneo-com
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
-  humanURL: https://akeneo.com
-  baseURL: https://example.com//api
-  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/akeneo/restv1currencies-get-openapi.md
-- name: Akeneo PIM API
-  x-api-slug: akeneo-pim-api
-  description: the-akeneo-api-brought-to-youfind-out-how-this-postman-collection-works-by-visiting-httpapi-akeneo-com
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
-  humanURL: https://akeneo.com
-  baseURL: https://example.com//api
-  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/akeneo/restv1currencies-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/akeneo/restv1currenciesusd-get-openapi.md
-- name: Akeneo PIM API
-  x-api-slug: akeneo-pim-api
-  description: the-akeneo-api-brought-to-youfind-out-how-this-postman-collection-works-by-visiting-httpapi-akeneo-com
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
-  humanURL: https://akeneo.com
-  baseURL: https://example.com//api
-  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/akeneo/restv1currencies-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/akeneo/restv1currenciesusd-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/akeneo/restv1currenciesusd-get-openapi.md
-- name: Akeneo PIM API
-  x-api-slug: akeneo-pim-api
-  description: Our team has been working in the e-commerce industry for over 10 years.
-    As we were helping brands to grow their online businesses, we realized that they
-    were all struggling with complex or archaic systems to manage product information.
-    We founded Akeneo in 2013 with the idea that products are the most important assets
-    in a company and that many merchants lack a tool to help them manage and leverage
-    this crucial asset. Merchants needed a tool that was designed for marketers and
-    flexible enough to be integrated with any third-party application.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
-  humanURL: https://akeneo.com
-  baseURL: https://example.com//api
-  tags: Currencies
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/akeneo/openapi.md
+apis: []
 x-common:
 - type: x-blog-rss
   url: https://www.akeneo.com/feed/

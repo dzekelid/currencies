@@ -7,35 +7,24 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18644-taxa
 x-kinRank: "8"
 x-alexaRank: "795977"
 tags: Currencies
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/taxamo/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Taxamo
-  x-api-slug: taxamo
-  description: taxamos-elegant-suite-of-apis-and-comprehensive-reporting-dashboard-enables-digital-merchants-to-easily-comply-with-eu-regulatory-requirements-on-tax-calculation-evidence-collection-tax-return-creation-and-data-storage-
+- name: Taxamo - Currencies
+  x-api-slug: apiv1dictionariescurrencies-get
+  description: Currencies.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18644-taxamo.jpg
   humanURL: https://www.taxamo.com/
   baseURL: https://api.taxamo.com//
   tags: Taxes, VAT, Target, Stack Network, Taxes, Relative Data, Service API, Relative
-    StreamRank, StreamRank
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/taxamo/apiv1dictionariescurrencies-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/taxamo/apiv1dictionariescurrencies-get-openapi.md
-- name: Taxamo
-  x-api-slug: taxamo
-  description: 'We make global digital VAT/GST compliance possible. #DigitalTax #DigiTax
-    #TaxTrends'
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18644-taxamo.jpg
-  humanURL: https://www.taxamo.com/
-  baseURL: https://api.taxamo.com//
-  tags: Currencies
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/taxamo/openapi.md
 x-common:
 - type: x-website
   url: https://www.taxamo.com/

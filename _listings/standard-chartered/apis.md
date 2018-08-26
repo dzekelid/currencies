@@ -12,14 +12,16 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "4658"
 tags: Currencies
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/standard-chartered/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Standard Chartered
-  x-api-slug: standard-chartered
-  description: standard-chartered-plc-is-a-british-multinational-banking-and-financial-services-company-headquartered-in-london-england--it-operates-a-network-of-more-than-1200-branches-and-outlets-including-subsidiaries-associates-and-joint-ventures-across-more-than-70-countries-and-employs-around-87000-people--it-is-a-universal-bank-with-operations-in-consumer-corporate-and-institutional-banking-and-treasury-services--despite-its-uk-base-it-does-not-conduct-retail-banking-in-the-uk-and-around-90-of-its-profits-come-from-asia-africa-and-the-middle-east-
+- name: Standard Chartered - Holiday Calendar Inquiry (Currency)
+  x-api-slug: cibservices2bapiv1banksscbreferencedefaultholidaycalendarcurrencycurrency-get
+  description: |-
+    The ???GetHolidayCalendar??? API returns list of holidays applicable for the specified combination of:
+    <ul><li>Currency</li><li>Date Range</li></lu>
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/standard-charter.png
   humanURL: https://developer.sc.com
   baseURL: https://developer.sc.com//
@@ -29,9 +31,11 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/standard-chartered/cibservices2bapiv1banksscbreferencedefaultholidaycalendarcurrencycurrency-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/standard-chartered/cibservices2bapiv1banksscbreferencedefaultholidaycalendarcurrencycurrency-get-openapi.md
-- name: Standard Chartered
-  x-api-slug: standard-chartered
-  description: standard-chartered-plc-is-a-british-multinational-banking-and-financial-services-company-headquartered-in-london-england--it-operates-a-network-of-more-than-1200-branches-and-outlets-including-subsidiaries-associates-and-joint-ventures-across-more-than-70-countries-and-employs-around-87000-people--it-is-a-universal-bank-with-operations-in-consumer-corporate-and-institutional-banking-and-treasury-services--despite-its-uk-base-it-does-not-conduct-retail-banking-in-the-uk-and-around-90-of-its-profits-come-from-asia-africa-and-the-middle-east-
+- name: Standard Chartered - Holiday Calendar Inquiry (Currency)
+  x-api-slug: cibservices2bapiv1banksscbreferencedefaultholidaycalendarcurrencycurrency-get
+  description: |-
+    The ???GetHolidayCalendar??? API returns list of holidays applicable for the specified combination of:
+    <ul><li>Currency</li><li>Date Range</li></lu>
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/standard-charter.png
   humanURL: https://developer.sc.com
   baseURL: https://developer.sc.com//
@@ -41,27 +45,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/standard-chartered/cibservices2bapiv1banksscbreferencedefaultholidaycalendarcurrencycurrency-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/standard-chartered/cibservices2bapiv1banksscbreferencedefaultholidaycalendarcurrencycurrency-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/standard-chartered/cibservices2bapiv1banksscbreferencedefaultholidaycalendarcurrencycurrency-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/standard-chartered/cibservices2bapiv1banksscbreferencedefaultholidaycalendarcurrencycurrency-get-openapi.md
-- name: Standard Chartered
-  x-api-slug: standard-chartered
-  description: Standard Chartered PLC is a British multinational banking and financial
-    services company headquartered in London, England. It operates a network of more
-    than 1,200 branches and outlets (including subsidiaries, associates and joint
-    ventures) across more than 70 countries and employs around 87,000 people. It is
-    a universal bank with operations in consumer, corporate and institutional banking,
-    and treasury services. Despite its UK base, it does not conduct retail banking
-    in the UK, and around 90% of its profits come from Asia, Africa and the Middle
-    East.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/standard-charter.png
-  humanURL: https://developer.sc.com
-  baseURL: https://developer.sc.com//
-  tags: Currencies
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/standard-chartered/openapi.md
 x-common:
 - type: x-accessibility
   url: https://developer.sc.com/cib/#/accessibility

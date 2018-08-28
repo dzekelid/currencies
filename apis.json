@@ -1,0 +1,508 @@
+{
+	"name": "Streadata.io API Gallery - Currencies",
+	"description": "This is a repository of currencies APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/currencies.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://currencies.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Reverb",
+			"x-api-slug": "reverb",
+			"description": "Reverb&#8217;s mission is to connect people with meaningful content.Reverb was created to find and connect the rich associations between words, ideas, content, and people. Through our products, we enhance broader knowledge around favorite topics by surfacing interesting information readers might not uncover on their own. We make tools for content understanding at every level from the single word on up. Wordnik: Get a full view of any word you???re interested in, with definitions, example sentences, related words, tweets from Twitter, pictures from Flickr, and much more.Reverb for Publishers: Reverb for Publishers brings relevant content to web audiences and surfaces additional content for publishers.Reverb for Developers: Reverb is committed to the open-source community and is proudly contributing infrastructure software to power applications and enterprises both small and gigantic. Our involvement with the Wordnik API, Scalatra, Swagger and Atmosphere is detailed on our site.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png",
+			"humanURL": "https://helloreverb.com/app",
+			"baseURL": "https://api.reverb.com//api",
+			"tags": "Currencies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/reverb/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Eventbrite",
+			"x-api-slug": "eventbrite",
+			"description": "Eventbrite brings people together through live experiences. Discover events that match your passions, or create your own with online ticketing tools.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg",
+			"humanURL": "http://eventbriteapi.com",
+			"baseURL": "https://www.eventbrite.com//%7Bdata-type%7D/",
+			"tags": "Currencies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/eventbrite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PayPal",
+			"x-api-slug": "paypal",
+			"description": "PayPal is the faster, safer way to send money, make an online payment, receive money or set up a merchant account.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg",
+			"humanURL": "https://paypal.com",
+			"baseURL": "https://svcs.sandbox.paypal.com//",
+			"tags": "Currencies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/paypal/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Stripe",
+			"x-api-slug": "stripe",
+			"description": "Online payment processing for internet businesses. Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes, including fraud prevention, and subscription management. Use Stripes payment platform to accept and process p...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg",
+			"humanURL": "https://stripe.com/",
+			"baseURL": "https://api.stripe.com/v1/",
+			"tags": "Currencies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/stripe/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xero",
+			"x-api-slug": "xero",
+			"description": "Xero is the QuickBooks alternative. Use Xero accounting software to manage invoicing, bank reconciliation, bookkeeping & more. Start a free trial today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg",
+			"humanURL": "http://www.xero.com/",
+			"baseURL": "https://api.xero.com//",
+			"tags": "Currencies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xero/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xignite",
+			"x-api-slug": "xignite",
+			"description": "Financial market data on-demand. Xignite financial Web services help build smarter websites and applications in minutes with zero up-front investment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png",
+			"humanURL": "http://www.xignite.com",
+			"baseURL": "https://www.xignite.com/xVWAP.json/XigniteVWAP",
+			"tags": "Currencies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Exchange Rate API",
+			"x-api-slug": "exchange-rate-api",
+			"description": "A reliable, easy to use & fast Exchange Rate API. Our Currency API enables currency conversion in any language with just a few lines of code!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/exchange-rate-api.png",
+			"humanURL": "http://www.exchangerate-api.com",
+			"baseURL": "https:///",
+			"tags": "Currencies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/exchange-rate-api/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Get Exchange Rates",
+			"x-api-slug": "get-exchange-rates",
+			"description": "Use the Free Get Exchange Rates API to convert currencies in real-time and retrieve simple currency exchange rates in JSON format.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen Shot 2017-12-26 at 8.55.01 PM.png",
+			"humanURL": "http://www.getexchangerates.com/api/",
+			"baseURL": "https:///",
+			"tags": "Currencies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/get-exchange-rates/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Open Exchange Rates API",
+			"x-api-slug": "open-exchange-rates-api",
+			"description": "The original simple, accurate and transparent exchange rates and currency conversion data API.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1347-.jpg",
+			"humanURL": "https://openexchangerates.org",
+			"baseURL": "https:///",
+			"tags": "Currencies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/open-exchange-rates-api/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "New York Federal Reserve Foreign Exchange",
+			"x-api-slug": "new-york-federal-reserve-foreign-exchange",
+			"description": "The Federal Reserve Bank of New York plays a leadership role in monetary policy, financial supervision and the payments system.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1449-new-york-federal-reserve-foreign-exchange.jpg",
+			"humanURL": "http://www.newyorkfed.org",
+			"baseURL": "https:///",
+			"tags": "Currencies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/new-york-federal-reserve-foreign-exchange/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "moltin",
+			"x-api-slug": "moltin",
+			"description": "The comprehensive eCommerce API infrastructure for any platform. Moltin handles data storage and eCommerce logic in the cloud so that you can focus on creating great customer experiences.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png",
+			"humanURL": "https://moltin.com",
+			"baseURL": "https://api.moltin.com//",
+			"tags": "Currencies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/moltin/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Taxamo",
+			"x-api-slug": "taxamo",
+			"description": "We make global digital VAT/GST compliance possible. #DigitalTax #DigiTax #TaxTrends",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18644-taxamo.jpg",
+			"humanURL": "https://www.taxamo.com/",
+			"baseURL": "https://api.taxamo.com//",
+			"tags": "Currencies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/taxamo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "APILayer",
+			"x-api-slug": "apilayer",
+			"description": "With offices in Vienna (HQ) and London, we are an Austrian technology company aiming to help developers, startups and larger companies automate and outsource complex processes by serving them with dedicated and handy programming interfaces - in short, APIs. Our goal is to offer quick and simple access to our software with the objective of speeding up development of your applications and easing the burden on your back-end. Our team has the opportunity to rethink how business processes work and how they can be improved, and we are thrilled to be building an entire platform dedicated to allowing companies to focus on what really matters.",
+			"image": "https://avatars.githubusercontent.com/u/12207343?v=3",
+			"humanURL": "https://apilayer.com/",
+			"baseURL": "https:///",
+			"tags": "Currencies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/apilayer/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OANDA",
+			"x-api-slug": "oanda",
+			"description": "OANDA: Award-winning leader in Currency Data, Forex & CFD Trading, offering leveraged trading, payment and data services for businesses and investors.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19007-oanda.jpg",
+			"humanURL": "http://www.oanda.com/",
+			"baseURL": "https:///",
+			"tags": "Currencies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/oanda/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "HitBTC",
+			"x-api-slug": "hitbtc",
+			"description": "We bring cutting-edge technology to the Bitcoin ecosystem!    Hitbtc provides an excellent trading terminal based on professional trading software which is suitable for new and sophisticated users.    As one of our valued customers, we understand how i...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hitbtc-logo.png",
+			"humanURL": "https://hitbtc.com",
+			"baseURL": "https:////api/2",
+			"tags": "Currencies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Alpha Vantage",
+			"x-api-slug": "alpha-vantage",
+			"description": "Composed of a tight-knit community of researchers, engineers, and business professionals, Alpha Vantage Inc. is a leading provider of free APIs for realtime and historical data on stocks, physical currencies, and digital/crypto currencies. Our success is driven by rigorous research, cutting edge technology, and a disciplined focus on democratizing access to data.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen Shot 2018-01-22 at 4.52.35 PM.png",
+			"humanURL": "https://www.alphavantage.co",
+			"baseURL": "https://www.alphavantage.co//",
+			"tags": "Currencies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/alpha-vantage/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "XE.com",
+			"x-api-slug": "xe-com",
+			"description": "Get free live currency rates, tools, and analysis using the most accurate data. Other services include XE Money Transfer, XE Datafeed, and more!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26593-xe-com.jpg",
+			"humanURL": "https://xe.com",
+			"baseURL": "https:///",
+			"tags": "Currencies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xe-com/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "1Forge",
+			"x-api-slug": "1forge",
+			"description": "Exchange Rate API, Currency Conversion API and Realtime Forex Quote API. Serving realtime tick data for over 500 forex currency pairs and commodities.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/1forge-logo.png",
+			"humanURL": "http://1forge.com",
+			"baseURL": "https:///",
+			"tags": "Currencies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/1forge/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Standard Chartered",
+			"x-api-slug": "standard-chartered",
+			"description": "Standard Chartered PLC is a British multinational banking and financial services company headquartered in London, England. It operates a network of more than 1,200 branches and outlets (including subsidiaries, associates and joint ventures) across more than 70 countries and employs around 87,000 people. It is a universal bank with operations in consumer, corporate and institutional banking, and treasury services. Despite its UK base, it does not conduct retail banking in the UK, and around 90% of its profits come from Asia, Africa and the Middle East.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/standard-charter.png",
+			"humanURL": "https://developer.sc.com",
+			"baseURL": "https://developer.sc.com//",
+			"tags": "Currencies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/standard-chartered/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Currencies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Open FinTech",
+			"x-api-slug": "open-fintech",
+			"description": "International standards yield technological, economic and social advantages. Standards speed up the development of new applications and simplify the process of communication between the services. Data and service is available under the Open Database License (ODbL). It is an open standard and open data, every player of FinTech market can contribute to development and enhancement. All data is available through Rest API based on JSON API standard.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/open-fintech-io.png",
+			"humanURL": "http://openfintech.io",
+			"baseURL": "https://api.openfintech.io//v1/",
+			"tags": "Currencies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/open-fintech/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "EU VAT API",
+			"x-api-slug": "eu-vat-api",
+			"description": "A developer friendly API to help your business achieve VAT compliance. Are you selling digital services to other EU countries? From Jan 1st 2015 changes to the VAT place of supply are coming into effect. One acceptable way to prove where your customer resides is their IP address. We have removed the headache and cost of you having to geo locate your customers IP address, and workout what VAT rate they should be charged. Simply pass your customers IP address from your application to our API and well return a JSON or XML object of all the current EU VAT rates for that country, or if you already know their country you can lookup the rates from the 2 digit country code.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vatapi-logo.png",
+			"humanURL": "http://vatapi.com",
+			"baseURL": "https://vatapi.com//v1",
+			"tags": "Currencies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/eu-vat-api/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Akeneo",
+			"x-api-slug": "akeneo",
+			"description": "Our team has been working in the e-commerce industry for over 10 years. As we were helping brands to grow their online businesses, we realized that they were all struggling with complex or archaic systems to manage product information. We founded Akeneo in 2013 with the idea that products are the most important assets in a company and that many merchants lack a tool to help them manage and leverage this crucial asset. Merchants needed a tool that was designed for marketers and flexible enough to be integrated with any third-party application.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png",
+			"humanURL": "https://akeneo.com",
+			"baseURL": "https://example.com//api",
+			"tags": "Currencies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/akeneo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "nFusion Solutions",
+			"x-api-slug": "nfusion-solutions",
+			"description": "nFusion Solutions ecosystem of products and solutions lets you power your apps, websites and software with precious metals market data directly from exchanges around the world. Built on the Azure Cloud platform, nFusion delivers a reliable and scalabl...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28883-nfusionsolutions-com.jpg",
+			"humanURL": "http://www.nfusionsolutions.com",
+			"baseURL": "https://api.nfusionsolutions.biz//",
+			"tags": "Currencies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Plentymarkets",
+			"x-api-slug": "plentymarkets",
+			"description": "plentymarkets is an all-in-one e-commerce ERP solution, which combines a comprehensive stock management system with a versatile shop system and effortless multichannel sales. Thanks to comprehensive functions and interfaces that include all steps of the e-commerce value chain, you can use the cloud based software to completely automate all of your e-business processes as well as your companys own individual processes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png",
+			"humanURL": "http://www.plentymarkets.co.uk",
+			"baseURL": "https://example.com//",
+			"tags": "Currencies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/plentymarkets/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xibo",
+			"x-api-slug": "xibo",
+			"description": "Xibo Digital Signage is a low-cost, high performance solution to launch your business, workplace or organisation into the future. Xibo doesn&rsquo;t just replicate print media, but actively increases engagement allowing you to deliver your message more effectively than ever before.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg",
+			"humanURL": "http://www.xibo.org.uk",
+			"baseURL": "https:////api",
+			"tags": "Currencies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xibo/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Currencies",
+	"include": [
+		{
+			"name": "Reverb",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/reverb/apis.yaml"
+		},
+		{
+			"name": "Eventbrite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/eventbrite/apis.yaml"
+		},
+		{
+			"name": "PayPal",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/paypal/apis.yaml"
+		},
+		{
+			"name": "Stripe",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/stripe/apis.yaml"
+		},
+		{
+			"name": "Xero",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xero/apis.yaml"
+		},
+		{
+			"name": "Xignite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/apis.yaml"
+		},
+		{
+			"name": "Exchange Rate API",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/exchange-rate-api/apis.yaml"
+		},
+		{
+			"name": "Get Exchange Rates",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/get-exchange-rates/apis.yaml"
+		},
+		{
+			"name": "Open Exchange Rates API",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/open-exchange-rates-api/apis.yaml"
+		},
+		{
+			"name": "New York Federal Reserve Foreign Exchange",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/new-york-federal-reserve-foreign-exchange/apis.yaml"
+		},
+		{
+			"name": "moltin",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/moltin/apis.yaml"
+		},
+		{
+			"name": "Taxamo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/taxamo/apis.yaml"
+		},
+		{
+			"name": "APILayer",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/apilayer/apis.yaml"
+		},
+		{
+			"name": "OANDA",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/oanda/apis.yaml"
+		},
+		{
+			"name": "HitBTC",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/hitbtc/apis.yaml"
+		},
+		{
+			"name": "Alpha Vantage",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/alpha-vantage/apis.yaml"
+		},
+		{
+			"name": "XE.com",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xe-com/apis.yaml"
+		},
+		{
+			"name": "1Forge",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/1forge/apis.yaml"
+		},
+		{
+			"name": "Standard Chartered",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/standard-chartered/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Open FinTech",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/open-fintech/apis.yaml"
+		},
+		{
+			"name": "EU VAT API",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/eu-vat-api/apis.yaml"
+		},
+		{
+			"name": "Akeneo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/akeneo/apis.yaml"
+		},
+		{
+			"name": "nFusion Solutions",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/nfusion-solutions/apis.yaml"
+		},
+		{
+			"name": "Plentymarkets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/plentymarkets/apis.yaml"
+		},
+		{
+			"name": "Xibo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xibo/apis.yaml"
+		}
+	]
+}

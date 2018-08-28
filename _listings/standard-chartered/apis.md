@@ -12,11 +12,25 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "4658"
 tags: Currencies
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/standard-chartered/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Standard Chartered - Holiday Calendar Inquiry (Currency)
+  x-api-slug: cibservices2bapiv1banksscbreferencedefaultholidaycalendarcurrencycurrency-get
+  description: |-
+    The ???GetHolidayCalendar??? API returns list of holidays applicable for the specified combination of:
+    <ul><li>Currency</li><li>Date Range</li></lu>
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/standard-charter.png
+  humanURL: https://developer.sc.com
+  baseURL: https://developer.sc.com//
+  tags: Financial Services, UK Banks, General Data, Relative Data, Banking
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/standard-chartered/cibservices2bapiv1banksscbreferencedefaultholidaycalendarcurrencycurrency-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/standard-chartered/cibservices2bapiv1banksscbreferencedefaultholidaycalendarcurrencycurrency-get-openapi.md
 - name: Standard Chartered - Holiday Calendar Inquiry (Currency)
   x-api-slug: cibservices2bapiv1banksscbreferencedefaultholidaycalendarcurrencycurrency-get
   description: |-

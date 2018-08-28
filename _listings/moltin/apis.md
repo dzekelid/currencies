@@ -8,11 +8,198 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Currencies
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/moltin/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Moltin - Get Currencies List
+  x-api-slug: v2currencies-get
+  description: Get currencies list.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/moltin/v2currencies-get-openapi.md
+- name: Moltin - Create a Currency
+  x-api-slug: v2currencies-post
+  description: Create a currency.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/moltin/v2currencies-post-openapi.md
+- name: Moltin - Get a Currency
+  x-api-slug: v2currenciescurrencyid-get
+  description: Get a currency.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/moltin/v2currenciescurrencyid-get-openapi.md
+- name: Moltin - Update a Currency
+  x-api-slug: v2currenciescurrencyid-put
+  description: Update a currency.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/moltin/v2currenciescurrencyid-put-openapi.md
+- name: Moltin - Delete a Currency
+  x-api-slug: v2currenciescurrencyid-delete
+  description: Delete a currency.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/moltin/v2currenciescurrencyid-delete-openapi.md
+- name: Moltin - Create a Currency
+  x-api-slug: v2currencies-post
+  description: Create a currency.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/moltin/v2currencies-post-openapi.md
+- name: Moltin - Get a Currency
+  x-api-slug: v2currenciescurrencyid-get
+  description: Get a currency.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/moltin/v2currenciescurrencyid-get-openapi.md
+- name: Moltin - Update a Currency
+  x-api-slug: v2currenciescurrencyid-put
+  description: Update a currency.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/moltin/v2currenciescurrencyid-put-openapi.md
+- name: Moltin - Delete a Currency
+  x-api-slug: v2currenciescurrencyid-delete
+  description: Delete a currency.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/moltin/v2currenciescurrencyid-delete-openapi.md
+- name: Moltin - Delete a Currency
+  x-api-slug: v2currenciescurrencyid-delete
+  description: Delete a currency.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/moltin/v2currenciescurrencyid-delete-openapi.md
+- name: Moltin - Delete a Currency
+  x-api-slug: v2currenciescurrencyid-delete
+  description: Delete a currency.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/moltin/v2currenciescurrencyid-delete-openapi.md
+- name: Moltin - Update a Currency
+  x-api-slug: v2currenciescurrencyid-put
+  description: Update a currency.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/moltin/v2currenciescurrencyid-put-openapi.md
+- name: Moltin - Update a Currency
+  x-api-slug: v2currenciescurrencyid-put
+  description: Update a currency.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/moltin/v2currenciescurrencyid-put-openapi.md
+- name: Moltin - Get a Currency
+  x-api-slug: v2currenciescurrencyid-get
+  description: Get a currency.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/moltin/v2currenciescurrencyid-get-openapi.md
+- name: Moltin - Get a Currency
+  x-api-slug: v2currenciescurrencyid-get
+  description: Get a currency.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/moltin/v2currenciescurrencyid-get-openapi.md
+- name: Moltin - Create a Currency
+  x-api-slug: v2currencies-post
+  description: Create a currency.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/moltin/v2currencies-post-openapi.md
+- name: Moltin - Create a Currency
+  x-api-slug: v2currencies-post
+  description: Create a currency.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/moltin/v2currencies-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://mocklab.api.gallery.streamdata.io

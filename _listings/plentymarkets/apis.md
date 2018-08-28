@@ -11,8 +11,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Currencies
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/plentymarkets/apis.md
 specificationVersion: "0.14"
 apis:
@@ -41,6 +41,165 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/plentymarkets/restorderscurrencies-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/plentymarkets/restorderscurrencies-get-openapi.md
+- name: plentymarkets REST-API - Activate a currency
+  x-api-slug: restitemssales-pricesidcurrencies-post
+  description: Activates a currency for a sales price. The ID of the sales price must
+    be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/plentymarkets/restitemssales-pricesidcurrencies-post-openapi.md
+- name: plentymarkets REST-API - Deactivate a currency
+  x-api-slug: restitemssales-pricesidcurrenciescurrency-delete
+  description: Deactivate a currency for a sales price. The ID of the sales price
+    and the ISO code of the currency must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/plentymarkets/restitemssales-pricesidcurrenciescurrency-delete-openapi.md
+- name: plentymarkets REST-API - Get a currency
+  x-api-slug: restorderscurrenciescurrencyiso-get
+  description: Get a currency. The ISO 4217 code of the currency must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/plentymarkets/restorderscurrenciescurrencyiso-get-openapi.md
+- name: plentymarkets REST-API - List countries for a currency
+  x-api-slug: restorderscurrenciescurrencyisocountries-get
+  description: List countries for a currency. The ISO 4271 code of the currency must
+    be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/plentymarkets/restorderscurrenciescurrencyisocountries-get-openapi.md
+- name: plentymarkets REST-API - Get a currency for a country
+  x-api-slug: restorderscurrenciescountriescountryid-get
+  description: Get a currency for a country. The ID of the country must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/plentymarkets/restorderscurrenciescountriescountryid-get-openapi.md
+- name: plentymarkets REST-API - Activate a currency
+  x-api-slug: restitemssales-pricesidcurrencies-post
+  description: Activates a currency for a sales price. The ID of the sales price must
+    be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/plentymarkets/restitemssales-pricesidcurrencies-post-openapi.md
+- name: plentymarkets REST-API - Deactivate a currency
+  x-api-slug: restitemssales-pricesidcurrenciescurrency-delete
+  description: Deactivate a currency for a sales price. The ID of the sales price
+    and the ISO code of the currency must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/plentymarkets/restitemssales-pricesidcurrenciescurrency-delete-openapi.md
+- name: plentymarkets REST-API - Get a currency
+  x-api-slug: restorderscurrenciescurrencyiso-get
+  description: Get a currency. The ISO 4217 code of the currency must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/plentymarkets/restorderscurrenciescurrencyiso-get-openapi.md
+- name: plentymarkets REST-API - List countries for a currency
+  x-api-slug: restorderscurrenciescurrencyisocountries-get
+  description: List countries for a currency. The ISO 4271 code of the currency must
+    be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/plentymarkets/restorderscurrenciescurrencyisocountries-get-openapi.md
+- name: plentymarkets REST-API - Get a currency for a country
+  x-api-slug: restorderscurrenciescountriescountryid-get
+  description: Get a currency for a country. The ID of the country must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/plentymarkets/restorderscurrenciescountriescountryid-get-openapi.md
+- name: plentymarkets REST-API - List countries for a currency
+  x-api-slug: restorderscurrenciescurrencyisocountries-get
+  description: List countries for a currency. The ISO 4271 code of the currency must
+    be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/plentymarkets/restorderscurrenciescurrencyisocountries-get-openapi.md
+- name: plentymarkets REST-API - Get a currency
+  x-api-slug: restorderscurrenciescurrencyiso-get
+  description: Get a currency. The ISO 4217 code of the currency must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/plentymarkets/restorderscurrenciescurrencyiso-get-openapi.md
+- name: plentymarkets REST-API - Deactivate a currency
+  x-api-slug: restitemssales-pricesidcurrenciescurrency-delete
+  description: Deactivate a currency for a sales price. The ID of the sales price
+    and the ISO code of the currency must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/plentymarkets/restitemssales-pricesidcurrenciescurrency-delete-openapi.md
+- name: plentymarkets REST-API - Activate a currency
+  x-api-slug: restitemssales-pricesidcurrencies-post
+  description: Activates a currency for a sales price. The ID of the sales price must
+    be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/plentymarkets/restitemssales-pricesidcurrencies-post-openapi.md
+- name: plentymarkets REST-API - Get a currency for a country
+  x-api-slug: restorderscurrenciescountriescountryid-get
+  description: Get a currency for a country. The ID of the country must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/plentymarkets/restorderscurrenciescountriescountryid-get-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.plentymarkets.co.uk/?ActionCall=WebActionRSS&rrss_id=1

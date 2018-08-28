@@ -7,11 +7,431 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "383974"
 tags: Currencies
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Xignite Currencies - List Currencies
+  x-api-slug: listcurrencies-get
+  description: List supported currencies.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/listcurrencies-get-openapi.md
+- name: Xignite Currencies - List Active Currencies
+  x-api-slug: listactivecurrencies-get
+  description: List supported currencies.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/listactivecurrencies-get-openapi.md
+- name: Xignite Currencies - Get Currency Report
+  x-api-slug: getcurrencyreport-get
+  description: Returns historical currency cross-rate tables for a range of dates.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/getcurrencyreport-get-openapi.md
+- name: Xignite Currencies - Get All Cross Rates For A Currency
+  x-api-slug: getallcrossratesforacurrency-get
+  description: Returns all valid cross rates for a currency.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/getallcrossratesforacurrency-get-openapi.md
+- name: Xignite Currencies - Get Currency Chart Custom
+  x-api-slug: currency--custom-get
+  description: Draw a custom currency chart for a date range.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/currency--custom-get-openapi.md
+- name: Xignite Currencies - Get Currency Chart Custom Binary
+  x-api-slug: currency--custom-binary-get
+  description: Draw a custom currency chart for a date range.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/currency--custom-binary-get-openapi.md
+- name: Xignite Currencies - Get Currency Chart
+  x-api-slug: currency-get
+  description: Draw a historical currency chart for a date range.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/currency-get-openapi.md
+- name: Xignite Currencies - Get Currency Chart Binary
+  x-api-slug: currency--binary-get
+  description: Draw a historical currency chart for a date range in binary format.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/currency--binary-get-openapi.md
+- name: Xignite Currencies - Get Currency Intraday Chart
+  x-api-slug: currency-intraday-get
+  description: Draw a intraday currency chart for a time range
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/currency-intraday-get-openapi.md
+- name: Xignite Currencies - Get Currency Intraday Chart Custom Binary
+  x-api-slug: currency-intraday--custom-binary-get
+  description: Draw a intraday currency chart for a time range in a binary format
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/currency-intraday--custom-binary-get-openapi.md
+- name: Xignite Currencies - Get Currency Intraday Chart Custom
+  x-api-slug: currency-intraday--custom-get
+  description: Draw a intraday currency chart for a time range in a binary format
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/currency-intraday--custom-get-openapi.md
+- name: Xignite Currencies - Get Currency Report
+  x-api-slug: getcurrencyreport-get
+  description: Returns historical currency cross-rate tables for a range of dates.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/getcurrencyreport-get-openapi.md
+- name: Xignite Currencies - Get All Cross Rates For A Currency
+  x-api-slug: getallcrossratesforacurrency-get
+  description: Returns all valid cross rates for a currency.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/getallcrossratesforacurrency-get-openapi.md
+- name: Xignite Currencies - Get Currency Chart Custom
+  x-api-slug: currency--custom-get
+  description: Draw a custom currency chart for a date range.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/currency--custom-get-openapi.md
+- name: Xignite Currencies - Get Currency Chart Custom Binary
+  x-api-slug: currency--custom-binary-get
+  description: Draw a custom currency chart for a date range.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/currency--custom-binary-get-openapi.md
+- name: Xignite Currencies - Get Currency Chart
+  x-api-slug: currency-get
+  description: Draw a historical currency chart for a date range.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/currency-get-openapi.md
+- name: Xignite Currencies - Get Currency Chart Binary
+  x-api-slug: currency--binary-get
+  description: Draw a historical currency chart for a date range in binary format.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/currency--binary-get-openapi.md
+- name: Xignite Currencies - Get Currency Intraday Chart
+  x-api-slug: currency-intraday-get
+  description: Draw a intraday currency chart for a time range
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/currency-intraday-get-openapi.md
+- name: Xignite Currencies - Get Currency Intraday Chart Custom Binary
+  x-api-slug: currency-intraday--custom-binary-get
+  description: Draw a intraday currency chart for a time range in a binary format
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/currency-intraday--custom-binary-get-openapi.md
+- name: Xignite Currencies - Get Currency Intraday Chart Custom
+  x-api-slug: currency-intraday--custom-get
+  description: Draw a intraday currency chart for a time range in a binary format
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/currency-intraday--custom-get-openapi.md
+- name: Xignite Currencies - Get Currency Intraday Chart Custom
+  x-api-slug: currency-intraday--custom-get
+  description: Draw a intraday currency chart for a time range in a binary format
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/currency-intraday--custom-get-openapi.md
+- name: Xignite Currencies - Get Currency Intraday Chart Custom Binary
+  x-api-slug: currency-intraday--custom-binary-get
+  description: Draw a intraday currency chart for a time range in a binary format
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/currency-intraday--custom-binary-get-openapi.md
+- name: Xignite Currencies - Get Currency Intraday Chart
+  x-api-slug: currency-intraday-get
+  description: Draw a intraday currency chart for a time range
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/currency-intraday-get-openapi.md
+- name: Xignite Currencies - Get Currency Chart Binary
+  x-api-slug: currency--binary-get
+  description: Draw a historical currency chart for a date range in binary format.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/currency--binary-get-openapi.md
+- name: Xignite Currencies - Get Currency Chart
+  x-api-slug: currency-get
+  description: Draw a historical currency chart for a date range.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/currency-get-openapi.md
+- name: Xignite Currencies - Get Currency Chart Custom Binary
+  x-api-slug: currency--custom-binary-get
+  description: Draw a custom currency chart for a date range.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/currency--custom-binary-get-openapi.md
+- name: Xignite Currencies - Get Currency Chart Custom
+  x-api-slug: currency--custom-get
+  description: Draw a custom currency chart for a date range.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/currency--custom-get-openapi.md
+- name: Xignite Currencies - Get All Cross Rates For A Currency
+  x-api-slug: getallcrossratesforacurrency-get
+  description: Returns all valid cross rates for a currency.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/getallcrossratesforacurrency-get-openapi.md
+- name: Xignite Currencies - Get Currency Report
+  x-api-slug: getcurrencyreport-get
+  description: Returns historical currency cross-rate tables for a range of dates.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/getcurrencyreport-get-openapi.md
+- name: Xignite Global Holidays - List Currencies
+  x-api-slug: listcurrencies-get
+  description: List currencies.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://globalholidays.xignite.com/xGlobalHolidays.json/XigniteGlobalHolidays
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xignite/listcurrencies-get-openapi.md
 x-common:
 - type: x--net-sdk
   url: http://xignite.github.io/DotNetSDK/

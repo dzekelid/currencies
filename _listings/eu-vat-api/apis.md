@@ -14,11 +14,23 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Currencies
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/eu-vat-api/apis.md
 specificationVersion: "0.14"
 apis:
+- name: VAT API - Convert a currency
+  x-api-slug: currencyconversion-get
+  description: Convert a currency.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vatapi-logo.png
+  humanURL: http://vatapi.com
+  baseURL: https://vatapi.com//v1
+  tags: VAT, EU, Taxes, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/eu-vat-api/currencyconversion-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/eu-vat-api/currencyconversion-get-openapi.md
 - name: VAT API - Convert a currency
   x-api-slug: currencyconversion-get
   description: Convert a currency.

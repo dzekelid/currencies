@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.j
 x-kinRank: "8"
 x-alexaRank: "2158"
 tags: Currencies
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xero/apis.md
 specificationVersion: "0.14"
 apis:
@@ -25,6 +25,28 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xero/currencies-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xero/currencies-get-openapi.md
+- name: Accounting - Put Currencies
+  x-api-slug: currencies-put
+  description: Put currencies.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
+  humanURL: http://www.xero.com/
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xero/currencies-put-openapi.md
+- name: Accounting - X-related-model Currencies
+  x-api-slug: currencies-xrelatedmodel
+  description: X-related-model currencies.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
+  humanURL: http://www.xero.com/
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/currencies/master/_listings/xero/currencies-xrelatedmodel-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://wordnik.api.gallery.streamdata.io
